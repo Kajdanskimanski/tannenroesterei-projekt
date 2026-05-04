@@ -1,0 +1,87 @@
+// ─── Timeline ────────────────────────────────────────────────────────────────
+
+interface TimelineEvent {
+  year: number;
+  title: string;
+  text: string;
+}
+
+const TIMELINE_EVENTS: TimelineEvent[] = [
+  {
+    year: 2010,
+    title: "Die Gründung",
+    text: "Elena Berger kehrt nach einem Kaffeereise durch Äthiopien nach Freiburg zurück und gründet Tannkaffee in einem kleinen Keller im Stühlinger. Die erste Röstmaschine: eine gebrauchte Probatone 5."
+  },
+  {
+    year: 2013,
+    title: "Das erste Café",
+    text: "Das Café in der Wilhelmstraße öffnet – mit nur acht Sitzplätzen und täglich wechselnden Filterkaffees. Die Schlange steht oft bis auf die Straße."
+  },
+  {
+    year: 2015,
+    title: "Direkter Handel",
+    text: "Tannkaffee etabliert direkte Partnerschaften mit drei Kleinbauernkooperativen in Äthiopien, Kolumbien und Guatemala. Faire Preise, Transparenz, persönliche Beziehung."
+  },
+  {
+    year: 2017,
+    title: "Bio-Zertifizierung",
+    text: "Alle Rohkaffees sind nun EU-bio-zertifiziert. Die Rösterei bezieht 100 % Ökostrom und kompensiert restliche Emissionen durch regionale Aufforstungsprojekte im Schwarzwald."
+  },
+  {
+    year: 2020,
+    title: "Pandemie & Wandel",
+    text: "Corona trifft hart – das Café schließt monatelang. Stattdessen: Online-Shop-Ausbau, Kaffee-Abonnements und digitale Röst-Workshops mit über 1.200 Teilnehmenden."
+  },
+  {
+    year: 2023,
+    title: "Neue Rösterei",
+    text: "Umzug in die neue, größere Rösterei im Industriegebiet Nord. Solaranlage auf dem Dach, Regenwassernutzung, lärmarme Nachbrenner-Technologie – Tannkaffee setzt neue Standards."
+  }
+];
+
+function initTimeline(): void {
+  const container = document.querySelector<HTMLDivElement>('.timeline');
+  if (!container) return;
+
+  container.innerHTML = TIMELINE_EVENTS.map((event, i) => `
+    <div class="timeline__item" data-index="${i}">
+      ${i % 2 === 0
+        ? `
+        <div class="timeline__content">
+          <div class="timeline__year">${event.year}</div>
+          <h3 class="timeline__event-title">${event.title}</h3>
+          <p class="timeline__text">${event.text}</p>
+        </div>
+        <div class="timeline__dot-col"><div class="timeline__dot"></div></div>
+        <div class="timeline__empty"></div>`
+        : `
+        <div class="timeline__empty"></div>
+        <div class="timeline__dot-col"><div class="timeline__dot"></div></div>
+        <div class="timeline__content">
+          <div class="timeline__year">${event.year}</div>
+          <h3 class="timeline__event-title">${event.title}</h3>
+          <p class="timeline__text">${event.text}</p>
+        </div>`
+      }
+    </div>
+  `).join('');
+
+  // Intersection Observer for scroll-triggered reveal
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const el = entry.target as HTMLElement;
+          const delay = parseInt(el.dataset.index ?? '0') * 80;
+          setTimeout(() => el.classList.add('visible'), delay);
+          observer.unobserve(el);
+        }
+      });
+    },
+    { threshold: 0.15, rootMargin: '0px 0px -60px 0px' }
+  );
+
+  document.querySelectorAll('.timeline__item').forEach((item) => observer.observe(item));
+}
+
+export { initTimeline };
