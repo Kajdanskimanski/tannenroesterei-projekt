@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b36a6d5f-d4ca-4cb1-b644-32689d5eb07a" name="Changes" comment="history projekt">
+      <change afterPath="$PROJECT_DIR$/src/assets/draussen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/finn1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/finn2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/keller.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/media/ersteFolge.m4a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/media/erstesjahr.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/packung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/plantage1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/plantage2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/rad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/sitzecke.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/theke.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/versuche.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/animation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/dialog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/timeline.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/timeline.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+        <option value="HTML File" />
+        <option value="TypeScript File" />
+        <option value="package.json" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Kajdanskimanski&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Kajdanskimanski/tannenroesterei-projekt.git&quot;,
+    &quot;accountId&quot;: &quot;ab157e76-7820-47b0-8410-40609426593f&quot;
+  }
+}</component>
+  <component name="IlluminatedCloudWorkspaceSettings">
+    <option name="projectWorkspaceSettings">
+      <ProjectWorkspaceSettings>
+        <option name="anonymousApexSettings">
+          <AnonymousApexSettings>
+            <option name="savedDocuments">
+              <list>
+                <AnonymousApexSavedDocument>
+                  <option name="name" value="Anonymous Apex 1" />
+                </AnonymousApexSavedDocument>
+              </list>
+            </option>
+          </AnonymousApexSettings>
+        </option>
+      </ProjectWorkspaceSettings>
+    </option>
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="3BJsWrLyJf1LdFcd1DYwoGTdX3c" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Docker.docker-compose.yml.webserver: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;aem-ide.servers.initialized&quot;: &quot;true&quot;,
+    &quot;disable.download.node.interpreter.editor.notification&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/miche/WebstormProjects/tannenrösterei/src/assets&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\miche\WebstormProjects\tannenrösterei\src\assets" />
+      <recent name="C:\Users\miche\WebstormProjects\tannenrösterei\src\assets\media" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\miche\WebstormProjects\tannenrösterei\src\assets" />
+      <recent name="C:\Users\miche\WebstormProjects\tannenrösterei\src\css" />
+      <recent name="C:\Users\miche\WebstormProjects\tannenrösterei" />
+      <recent name="C:\Users\miche\WebstormProjects\tannenrösterei\src\typescript" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/tannenrösterei/src/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.webserver: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="webserver" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.webserver: Compose Deployment" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-WS-252.28539.21" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b36a6d5f-d4ca-4cb1-b644-32689d5eb07a" name="Changes" comment="" />
+      <created>1774218542070</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774218542070</updated>
+      <workItem from="1774218543073" duration="2163000" />
+      <workItem from="1774654816997" duration="301000" />
+      <workItem from="1774655197363" duration="1219000" />
+      <workItem from="1774656436594" duration="26000" />
+      <workItem from="1774656470581" duration="1055000" />
+      <workItem from="1774909525905" duration="4636000" />
+      <workItem from="1775172366744" duration="50000" />
+      <workItem from="1775172439726" duration="1969000" />
+      <workItem from="1775344553643" duration="1386000" />
+      <workItem from="1775346016639" duration="396000" />
+      <workItem from="1775689275921" duration="671000" />
+      <workItem from="1775691041339" duration="35000" />
+      <workItem from="1775772549281" duration="486000" />
+      <workItem from="1776116060508" duration="6736000" />
+      <workItem from="1776379269641" duration="1799000" />
+      <workItem from="1776381123764" duration="1711000" />
+      <workItem from="1776631645181" duration="5687000" />
+      <workItem from="1776719121632" duration="2963000" />
+      <workItem from="1776806162305" duration="3587000" />
+      <workItem from="1776848067748" duration="436000" />
+      <workItem from="1777848781842" duration="840000" />
+      <workItem from="1777930996196" duration="2291000" />
+      <workItem from="1778424921154" duration="11135000" />
+      <workItem from="1778968757493" duration="31000" />
+      <workItem from="1778968847805" duration="505000" />
+      <workItem from="1778970247910" duration="3742000" />
+      <workItem from="1779052104610" duration="8446000" />
+      <workItem from="1779225859021" duration="14582000" />
+      <workItem from="1779835721309" duration="178000" />
+      <workItem from="1779836084449" duration="5794000" />
+      <workItem from="1780002861790" duration="3986000" />
+    </task>
+    <task id="LOCAL-00001" summary="history projekt">
+      <option name="closed" value="true" />
+      <created>1777931919615</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1777931919615</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="history projekt" />
+    <option name="LAST_COMMIT_MESSAGE" value="history projekt" />
+  </component>
+</project>
